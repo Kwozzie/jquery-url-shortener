@@ -1,20 +1,18 @@
-/*
+/**
 * jQuery Bit.Ly Shorten Url Plugin
-* 2010 Justin Swan
-* License: Creative Commons Attribution-Share Alike 3.0 Australia Licence
-* Original Author: Uzbekjon (http://jquery-howto.blogspot.com/2009/04/shorten-long-urls-with-jquery-bitly.html)
-* Version: 1.0.0
+* @author Uzbekjon
+* @link http://jquery-howto.blogspot.com/2009/04/shorten-long-urls-with-jquery-bitly.html
+* 
+* @author Justin Swan
+* @license Creative Commons Attribution-Share Alike 3.0 Australia Licence
+* 
+* @version 1.0.1
 *
-* Grateful for any feedback on improvements.
-*
-* Call: $(input field).shorten_url(long url)
-* Returns: shortened url as value for input field.
+* @usage $(input field).shorten_url(long url)
+* @return shortened url as value for input field.
 *
 */
 
-//
-// start closure
-//
 (function($){
     $.fn.shorten_url = function(url,options){
         // Extend our default options with those provided.
@@ -47,7 +45,4 @@
         history: '0'
     };
 
-//
-// end of closure
-//
 })(jQuery);
